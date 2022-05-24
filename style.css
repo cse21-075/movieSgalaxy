@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@500&display=swap');
+
+@media (max-width: 2000px) {
+
+*{ box-sizing: border-box;
+  margin: 0.5px;
+}
+body{
+  background-color: black;
+}
+
+/*START OF NAV BAR*/
+
+li, a{
+    font-family: "Radio Canada";
+    font-weight: 500;
+    font-size: 16px;
+    color: goldenrod;
+    text-decoration: none;
+
+}
+
+header{
+    display: flex;
+   justify-content: center;
+    align-items: flex-end;
+    padding: 30px 10%;
+    float: right;
+    padding-left: 10px;
+}
+
+.nav{
+    background-color:white;
+    width: 20px;
+    height: 78px;
+    padding: 50px;
+    border: 20px solid rgb(9, 9, 104);
+    box-sizing: border-box;
+    float: inline-end;
+}
+
+.nav_links{
+        list-style: none;
+}
+
+.nav_links li{
+        display: inline-block;
+        padding-left: 100px;
+        font-size: xx-large;
+}
+
+.nav_links li a{
+    transition: all 0.1s ease 0s;
+}
+
+.nav_links li a:hover{
+    background-color: gray;
+    height: 30px;
+    width: 20px;
+}
+
+.logo img{
+   position: absolute;
+   margin-top: 10px;
+   margin-left: 5px;
+   float: left;
+}
+/*END OF NAV BAR*/
+
+hr{
+  width: 390px;
+  color: goldenrod;
+  padding-left: 100px;
+}
+
+  h1{
+    padding-left: 510px;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    color: goldenrod;
+    padding-top: 100px;  
+ }
+
+
+ h2{
+  padding-left: 510px;
+  font-size: xx-large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  color: goldenrod;
+  padding-top: 200px;  
+ }
+ #RCORNERS{
+  border-radius: 25px;
+  border: 2px solid goldenrod;
+  padding: 20px;
+  width: 273px;
+  height: 90px;  
+  margin-left: 480px;
+  margin-top: 50px;
+}
+#CORNERS{
+  border-radius: 25px;
+  border: 2px solid goldenrod;
+  padding: 20px;
+  width: 200px;
+  height: 90px;  
+  margin-left: 480px;
+  margin-top: 200px;
+}
+#CORNERS2{
+  border-radius: 25px;
+  border: 2px solid goldenrod;
+  padding: 20px;
+  width: 200px;
+  height: 90px;  
+  margin-left: 480px;
+  margin-top: 90px;
+}
+#CORNERS3{
+  border-radius: 25px;
+  border: 2px solid goldenrod;
+  padding: 20px;
+  width: 305px;
+  height: 90px;  
+  margin-left: 480px;
+  margin-top: 90px;
+}
+#CORNERS4{
+  border-radius: 25px;
+  border: 2px solid goldenrod;
+  padding: 20px;
+  width: 260px;
+  height: 90px;  
+  margin-left: 480px;
+  margin-top: 90px;
+}
+#CORNERS5{
+  border-radius: 25px;
+  border: 2px solid goldenrod;
+  padding: 20px;
+  width: 290px;
+  height: 90px;  
+  margin-left: 480px;
+  margin-top: 90px;
+}
+#corner{
+  border-radius: 25px;
+  border: 2px solid goldenrod;
+  padding: 20px;
+  width: 220px;
+  height: 87px;  
+  margin-left: 480px;
+  margin-top: 200px;
+}
+  /* Movies on NOW SHOWING*/
+
+.cards{
+    width: 25%;
+    background-color: rgb(117, 114, 114);
+    display: inline-block;
+    border-radius: 10px;
+    margin: 40px;
+    box-shadow: 2px 2px 10px blue;
+}
+
+.IMAGE img{
+   width: 100%;
+   border-top-right-radius: 20px;
+   border-top-left-radius: 20px;
+   align-self: center;
+}
+p{
+    padding-top: 15px;
+    font-size: smaller;
+    color: goldenrod;
+}
+
+span{
+  color: aqua;
+}
+
+
+hr{
+    width: 80px;
+    align-self: center;
+}
+.tittle{
+    text-align: center;
+    padding: 5px;
+}
+.description{
+    text-align: center;
+}
+
+button{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: orange;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: aqua;
+    color: white;
+    transition: .3s;
+}
+
+  p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: left;
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+
+  /* Theatre Locations*/
+
+  
+.CONTAINER{
+  display: inline-block;
+}
+.CARDS{
+  width: 80%;
+  background-color: rgb(117, 114, 114);
+  display: inline-block;
+  border-radius: 5px;
+  margin: 40px;
+  box-shadow: 2px 2px 10px goldenrod;
+  margin-left: 100px;
+}
+
+.IMAGE img{
+ width: 100%;
+ border-top-right-radius: 5px;
+ border-top-left-radius: 5px;
+ box-shadow: 2px 2px 10px blue;
+}
+.DESCRIPTION{
+  text-align: center;
+}
+.TITTLE{
+  text-align: center;
+  padding: 5px;
+  font-size: xx-large;
+}
+/*Footer*/
+.footer-container{
+  background-color: goldenrod;
+  padding-bottom: 4rem;
+}
+.footer{
+  width: 1000px;
+  height: 200px;
+  background-color: goldenrod;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+.footer-heading{
+  display: flex;
+  flex-direction: column;
+  margin-right: 200px;
+}
+.footer-heading h3{
+  margin-bottom: 10px;
+}
+.footer-heading h6{
+  margin-bottom: 100px;
+}
+.footer-heading a{
+    color: grey;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.footer-heading a:hover{
+    color: aqua;
+    transition: 0.3s ease-out;
+}
+.footer-email-form h6{
+  margin-bottom: 100px;
+  float: right;
+  margin-bottom: 10px;
+  font-size: small;
+}
+#footer-email{
+width: 250px;
+height: 40px;
+border-radius: 4px;
+outline: none ;
+border: none;
+padding-left: 10px;
+font-size: small;
+margin-bottom: 8px;
+float: right;
+}
+#footer-email::placeholder{
+color: aqua;
+}
+#footer-email-btn{
+width: 100px;
+height: 40px;
+border-radius: 4px;
+background-color: black;
+outline: none;
+border: none;
+color:white ;
+font-size: 1rem;
+}
+
+#footer-email-btn:hover{
+cursor: pointer;
+background-color: aqua;
+transition:0.4s ease-out ;
+}
+.feedback{
+  float: right;
+  margin-bottom: 50px;
+  padding-left: 20px;
+}
+.feedback h6{
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.copyright{
+  justify-content: center;
+  align-self: center;
+  padding-bottom: 15px;
+  padding-left: 300px;
+}
+.copyright p{
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  align-content: center;
+  justify-content: center;
+  font-size: large;
+}
+/*FORM*/
+.form{
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+  padding-top: 20px;
+  padding-left: 50px;
+  margin-left: 250px;
+  margin-top: 50px;
+  width: 100px;
+}
+.form label{
+  color: goldenrod;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: small;
+}
+.form input{
+  width: 500px;
+  height: 50px;
+  cursor: pointer;
+}
+
+/*For map*/
+
+.khontheinara{
+  width: 1350px;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-right: 100px;
+  padding-top: 50px;
+}
+
+#khonara{
+  border-radius: 25px;
+  border: 2px solid goldenrod;
+  padding: 20px;
+  width: 220px;
+  height: 87px;  
+  margin-left: 480px;
+  margin-top: 87px;
+}
+}
+
+#feedback2{
+  border-radius: 25px;
+  border: 2px solid gray;
+  padding: 20px;
+  width: 700px;
+  height: 190px;  
+  margin-left: 280px;
+  margin-top: 150px;
+}
